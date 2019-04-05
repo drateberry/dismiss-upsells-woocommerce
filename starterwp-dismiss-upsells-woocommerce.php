@@ -36,7 +36,7 @@ if ( ! defined( 'YOUR_PLUGIN_UNIQUE' ) ) {
 	define( 'YOUR_PLUGIN_UNIQUE', 'gqaxsrb5SdDlNVHP' );
 }
 if ( ! defined( 'YOUR_PLUGIN_VER' ) ) {
-	define( 'YOUR_PLUGIN_VER', '1.0.0' );
+	define( 'YOUR_PLUGIN_VER', '1.1.0' );
 }
 
 add_action( 'plugins_loaded', 'rkv_load_updater' );
