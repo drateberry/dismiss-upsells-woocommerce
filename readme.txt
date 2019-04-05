@@ -22,6 +22,6 @@ Remove Upsells for WooCommerce will permanently disable marketplace suggestions 
 
 === Manually ===
 
-1. Upload the `starterwp-dismiss-upsells-woocommerce` folder to the `/wp-content/plugins/` directory
+1. Upload the `dismiss-upsells-woocommerce` folder to the `/wp-content/plugins/` directory
 1. Activate the Dismiss Upsells for WooCommerce plugin through the 'Plugins' menu in WordPress
 1. The plugin will prevent WooCommerce from loading marketplace suggestions outside of the WooCommerce Extensions page
