@@ -1,9 +1,9 @@
-=== Dismiss Upsells for WooCommerce ===
+=== Dismiss Suggestions for Automattic Plugins ===
 Contributors: drateberry
 Donate link: https://starterwp.com/donate
 License: GPLv3
 License URI: http://www.gnu.org/licenses/gpl.html
-Tags: Remove upsells, WooCommerce marketplace
+Tags: Remove upsells, WooCommerce marketplace, Jetpack search
 Requires at least: 4.9
 Tested up to: 5.1.1
 Stable tag: 1.0
@@ -17,6 +17,8 @@ Remove the WooCommerce Marketplace upsells introduced in version 3.6
 This plugin removes the upsells for Automattic's WooCommerce plugin from your WordPress website. In Version 3.6 of WooCommerce, links to the WooCommerce Marketplace (operated by Automattic) are included on product admin pages.
 
 Remove Upsells for WooCommerce will permanently disable marketplace suggestions instead of the native requirement to dismiss the upsell notifications daily for 5 days each month.
+
+This plugin also remove the upsells in Automattic's Jetpack plugin. This includes the new and highly controversial feature of inserting advertisements for Jetpack modules in the WordPress plugin search results.
 
 == Installation ==
 

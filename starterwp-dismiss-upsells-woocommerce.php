@@ -1,9 +1,9 @@
 <?php
 /*
-Plugin Name: Dismiss Suggestions for WooCommerce
+Plugin Name: Dismiss Suggestions for Automattic Plugins
 Plugin URI: https://starterwp.com
-Description: Remove WooCommerce Marketplace suggestions from product pages.
-Version: 1.0.0
+Description: Remove suggestions and upsells added by Automattic plugins. This includes WooCommerce Marketplace suggestions and Jetpack upsells.
+Version: 1.1
 Author: Starter WP
 Author URI: https://starterwp.com
 Text Domain: starterwp-dismiss-upsells-woocommerce
@@ -66,5 +66,8 @@ function rkv_remote_update() {
 
 //Remove WooCommerce Marketplace suggestions
 add_filter('woocommerce_allow_marketplace_suggestions', '__return_false');
+
+//Remove Jetpack upsells
+add_filter('jetpack_show_promotions', '__return_false');
 
 ?>
